@@ -1,0 +1,1 @@
+The number of virtual addresses is much larger than that of physical addresses, since physical addresses correspond to the RAM and virtual to some locations on the hard disk.
