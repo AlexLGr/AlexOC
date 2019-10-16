@@ -58,7 +58,7 @@ int main() {
 		c = getc(input);
 	}
 
-	printf("Hit/Miss Ratio = %f\n", ((float)hits_num/(float)references));
+	printf("Hit/Miss Ratio = %f\n", ((float)hits_num/(float)(references-hits_num)));
 
 	fclose(input);
 	return 0;
